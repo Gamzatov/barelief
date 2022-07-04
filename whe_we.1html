@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Преимущества</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/jquery"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <script src="https://surveyjs.azureedge.net/1.5.13/survey.jquery.js"></script>
+    <link rel="stylesheet" href="./css/btn.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://surveyjs.azureedge.net/1.5.13/modern.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div id="nav" class="navigation">
+      
+        <div class="navigation__inner">
+            <button id="hide" class="nav_close_btn"  style="">X</button>
+          
+  
+            <ul class="menu_ul">
+              <a class="border-animation" href="./index.html" style="float: right;">
+                <div class="border-animation__inner">Главная</div>
+                
+            </a>
+            <a class="border-animation" href="./index.html" style="float: right;">
+              <div class="border-animation__inner">Наши результаты</div>
+              
+          </a>
+          <a class="border-animation" href="./whe_we.html"style="float: right;">
+            <div class="border-animation__inner">Преимущества</div>
+            
+        </a>
+        <a class="border-animation" href="./partners.html"style="float: right;">
+          <div class="border-animation__inner">Партнеры</div>
+          
+      </a>
+      <a class="border-animation" href="./our_services.html"style="float: right;">
+        <div class="border-animation__inner">Наши Услуги</div>
+        
+    </a>
+    <a class="border-animation" href="./how_we_works.html"style="float: right;">
+      <div class="border-animation__inner">Этапы ремонта</div>
+      
+  </a>
+  <a class="border-animation" href="./faq.html"style="float: right;">
+    <div class="border-animation__inner">Вопросы/Ответы</div>
+    
+</a>
+<a class="border-animation" href="./contacts.html"style="float: right;">
+  <div class="border-animation__inner">Контакты</div>
+  
+</a>
+   
+       
+
+
+
+
+
+                
+                
+
+              
+            </ul>
+
+            <!--   Content   -->
+        </div>
+    </div>
+    <style>
+        .h1{
+            display: none;
+
+        }
+        #demo{
+                margin-top: -50px;
+            }
+        @media(max-width:762px){
+            .h1{
+                display: block;
+                color: #d49520;
+                text-align: center;
+                margin-top: 80px;
+            }
+           
+        }
+    </style>
+
+    <button id="show" class="burger_icon">
+      <img
+        class="burger_icon"
+        style="width: 50px;"
+        src="./menu-alt-512.png"
+        alt="Menu"
+      />
+    </button>
+    <div class="main_section">
+        <div class="max-widt" style="max-width: 900px; margin: 0 auto;">
+            <div class="text_height" style="text-align: center; height: 140px; padding-top: 80px;" >
+                <div id="typed-strings"   class="typed_text_block">
+                    <p class="text" >Опытные рабочие</p>
+                    
+                  </div>
+                
+                  <span id="typed"></span>
+                </div>
+            <div class="advantages">
+                <div class="adv_line">
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img src="./img/1.png" style="width: 30px;" alt="" /> Опытные
+                  рабочие
+                </strong>
+                        </p>
+                        <p>
+                            Ремонт будут делать только квалифицированные рабочие с опытом работы от 5 лет.
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img src="./img/garanty.png" style="width: 30px;" alt="" />
+                  Гарантии
+                </strong>
+                        </p>
+                        <p>
+                            Юридически грамотный договор обеспечивает защиту интересов клиента.
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img src="./img/money.png" style="width: 30px;" alt="" />
+
+                  Поэтапная оплата
+                </strong>
+                        </p>
+                        <p>
+                            Никаких предоплат. Вы оплачиваете работу по мере выполнения.
+                        </p>
+                    </div>
+                </div>
+                <div class="adv_line">
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img src="./img/2.png" style="width: 30px;" alt="" />
+
+                  Строгое соблюдение сроков
+                </strong>
+                        </p>
+                        <p>
+                            Мы берем на себя обязательства и за просроченные дни выплачиваем пеню.
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img
+                    src="./img/Old-Camera-icon.png"
+                    style="width: 30px;"
+                    alt=""
+                  />
+
+                  Ежедневный фотоотчет
+                </strong>
+                        </p>
+                        <p>
+                            В конце каждого дня мы Вам предоставим фотоотчет в удобном виде.
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img src="./img/20002.png" style="width: 30px;" alt="" />
+
+                  Контроль качества
+                </strong>
+                        </p>
+                        <p>
+                            Владелец фирмы лично контролирует каждый этап работы и отвечает перед Вами.
+                        </p>
+                    </div>
+                </div>
+                <div class="adv_line">
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img src="./img/50117.png" style="width: 30px;" alt="" />
+
+                  Без увеличения сметы
+                </strong>
+                        </p>
+                        <p>
+                            После начала работ смета ни при каких условиях расти не будет!
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img src="./img/cup.png" style="width: 30px;" alt="" />
+
+                  Экскурсия
+                </strong>
+                        </p>
+                        <p>
+                            Предлагаем посетить готовые объекты чтобы пообщаться с заказчиком и увидеть сколько внимания мы уделяем мелким деталям.
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            <strong>
+                  <img src="./img/diploma-1.png" style="width: 30px;" alt="" />
+
+                  Все полностью "по-белому"
+                </strong>
+                        </p>
+                        <p>
+                            Мы работаем только официально, поэтому вы можете быть на 100% уверены в чистоте сделки.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        #demo {
+            text-align: center;
+        }
+        
+        @media(max-width:800px) {
+            #demo {
+                margin-top: 40px;
+            }
+        }
+        
+        li {
+            margin: 20px 0;
+        }
+    </style>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+     <script>
+       var typed = new Typed('#typed', {
+         stringsElement: '#typed-strings',
+         typeSpeed: 50,
+         loop: false
+       });
+     </script>
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Партнеры</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/jquery"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <script src="https://surveyjs.azureedge.net/1.5.13/survey.jquery.js"></script>
+    <link rel="stylesheet" href="./css/btn.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://surveyjs.azureedge.net/1.5.13/modern.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <link rel="stylesheet" href="css/style_new.css" />
+</head>
+
+<body>
+    <div id="nav" class="navigation">
+        <div class="navigation__inner">
+            <button id="hide" class="nav_close_btn" style=""></button>
+
+            <ul class="menu_ul">
+                <a class="border-animation" href="./index.html" style="float: right;">
+                    <div class="border-animation__inner">Главная</div>
+                </a>
+                <a class="border-animation" href="./index.html" style="float: right;">
+                    <div class="border-animation__inner">Наши результаты</div>
+                </a>
+                <a class="border-animation" href="./whe_we.html" style="float: right;">
+                    <div class="border-animation__inner">Преимущества</div>
+                </a>
+
+                <a class="border-animation" href="./our_services.html" style="float: right;">
+                    <div class="border-animation__inner">Наши Услуги</div>
+                </a>
+                <a class="border-animation" href="./how_we_works.html" style="float: right;">
+                    <div class="border-animation__inner">Этапы ремонта</div>
+                </a>
+                <a class="border-animation" href="./faq.html" style="float: right;">
+                    <div class="border-animation__inner">Вопросы/Ответы</div>
+                </a>
+                <a class="border-animation" href="./contacts.html" style="float: right;">
+                    <div class="border-animation__inner">Контакты</div>
+                </a>
+            </ul>
+
+            <!--   Content   -->
+        </div>
+    </div>
+
+    <button id="show" class="burger_icon">
+      <img
+        class="burger_icon"
+        style="width: 50px;"
+        src="./menu-alt-512.png"
+        alt="Menu"
+      />
+    </button>
+    <style>
+        * {
+            color: #d49520;
+        }
+        
+        .result_numbers {
+            display: flex;
+            margin-top: 80px;
+        }
+        
+        .number {
+            width: 25%;
+            margin: 10px 20px;
+        }
+        
+        h2 {
+            font-size: 45px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .result_hr {
+            height: 2px;
+            max-width: 100%;
+            background: #d49520;
+        }
+        
+        h1 {
+            display: none;
+        }
+        
+        @media (max-width: 762px) {
+            .result_numbers {
+                flex-direction: column;
+                margin-top: 80px;
+            }
+            .number {
+                width: 90%;
+                margin: 10px 20px;
+                text-align: center;
+            }
+            h2 {
+                font-size: 25px;
+            }
+            #demo {
+                display: none;
+            }
+            h1 {
+                display: block;
+                text-align: center;
+                margin-top: 80px;
+            }
+        }
+    </style>
+    <div class="main_section">
+        <div class="max-widt" style="max-width: 900px; margin: 0 auto;">
+
+            <div class="text_height" style="text-align: center; padding-top: 50px;">
+                <div id="typed-strings" class="typed_text_block">
+                    <p class="text">Партнеры<br>
+                        <span style="font-size: 20px;"> Партнеры для нас, это те компании которые предоставляют скидку на материалы для наших клиентам от 5% до 40%.</span></p>
+
+                </div>
+
+                <span id="typed"></span>
+            </div>
+            <p style="font-size: 20px; text-align: center;">
+
+            </p>
+
+        </div>
+    </div>
+    <style>
+        #demo {
+            text-align: center;
+        }
+        
+        @media (max-width: 800px) {
+            #demo {
+                margin-top: 40px;
+            }
+        }
+        
+        li {
+            margin: 20px 0;
+        }
+    </style>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 50,
+            loop: false
+        });
+    </script>
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</body>
+
+</html>

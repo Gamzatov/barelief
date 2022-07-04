@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- / -->
+    <!-- <link rel="stylesheet" href="./files/tilda-grid-3.0.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./files/tilda-blocks-2.12.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./files/tilda-animation-1.0.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./files/tilda-menusub-1.0.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./files/tilda-slds-1.4.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./files/tilda-zoom-2.0.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./files/tilda-popup-1.1.min.css" type="text/css" media="all" /> -->
+
+    <!-- <link rel="stylesheet" href="./css/let/style_new.css"> -->
+    <!-- <link rel="stylesheet" href="./css/let/slick.css"> -->
+    <!-- <link rel="stylesheet" href="./css/let/jquery.fancybox.min.css"> -->
+
+    <!-- <script src="https://unpkg.com/jquery"></script> -->
+
+
+    <!-- <script src="https://surveyjs.azureedge.net/1.5.13/survey.jquery.js"></script> -->
+    <!-- <link href="https://surveyjs.azureedge.net/1.5.13/modern.css" type="text/css" rel="stylesheet" /> -->
+    <!-- ///////////////////// -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./logo_media.css">
+
+    <link rel="stylesheet" href="./css/let/.css">
+    <link rel="stylesheet" href="./css/let/style(1).css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+
+    <link rel="stylesheet" href="./css/btn.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <title>Bud-Barelief</title>
+
+
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <link rel="stylesheet" href="css/style_new.css" />
+    <style>
+        .call_me_modal {
+            width: 50%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        
+        .call_me input {
+            width: 200px;
+        }
+        
+        .call_me button {
+            width: 200px;
+        }
+        
+        .pc_number {
+            background: url(./icons/Rectangle.png) no-repeat center;
+            background-size: 100% 100%;
+        }
+        
+        .bord {
+            padding: 10px;
+        }
+        
+        @media(max-width:762px) {
+            .call_me_modal {
+                width: 100%;
+            }
+        }
+        
+        .modal-content {
+            background: url('./img/present_back.png');
+            width: 36rem;
+            margin-top: 12vh;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="right_number pc_number" style="float: right; margin: 35px;">
+        <p style="font-size: 12px; color: #e5a934; margin-top: -30px;">Работаем без выходных по Киеву и обл.</p>
+        <div class="bord">
+
+            <div style="color: #d49520; text-align: center; font-size: 18px; line-height: 1;">
+                <p style="margin-top: -20px; "> <a class="head_number" style="color: #d49520;" href="tel:+38 (067) 249-15-72"> +38 (067) 249-15-72</a> </p>
+                <img class="phone_img" src="./icons/phone.png" style="" alt="">
+                <p style="margin-top:-20px;">
+
+                    <a class="head_number" style="color: #d49520;" href="tel:(044) 561-94-97"> (044) 561-94-97</a> </p>
+            </div>
+            <div class="bord_tel">
+                <p style="color: #d49520; text-align: center; margin-bottom:-5px; font-size: 13px;">Задайте вопрос на прямую</p>
+                <div class="social-contact">
+
+                    <div class="telega" style="display: flex;">
+
+                        <p>
+                            <a href="tg://resolve?domain=ivan4you">
+                                <img class="social_img" src="./icons/telegram.png" alt="">
+                            </a>
+                        </p>
+                        <a href="tg://resolve?domain=ivan4you">
+           
+            Telegram</span> 
+           </a>
+
+                    </div>
+                    <div class="viber" style="display: flex;">
+                        <p>
+                            <a href="viber://chat?number=+380672491572">
+                                <img class="social_img_v" src="./icons/viber.png" style="" alt="">
+                            </a>
+                        </p>
+                        <a href="viber://chat?number=+380672491572s">
+            
+           Viber
+        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Модальное окно -->
+    <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content call_me_modal">
+                <div class="modal-header" style="padding: 0px;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+            <span aria-hidden="true">×</span>
+          </button>
+
+                </div>
+                <div class="modal-body">
+                    <form class="call_me" action="./api.php" method="POST">
+                        <input type="text" name="name" placeholder="Ваше имя" />
+                        <div class="main-input"><span class="icon-Phones"></span><input type="number" type="tel" id="tel" placeholder="+380 (**) *** ** **" name="yourPhone" required="">
+                        </div>
+                        <button type="submit" class="btn">
+                Отправить
+            </button>
+
+
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="max-width">
+        <div class="logo">
+            <img class="logo_img" style="max-width: 400px; margin: 0 auto;" src="./Logo.png" alt="" />
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div id="nav" class="navigation">
+
+        <div class="navigation__inner">
+            <button id="hide" class="nav_close_btn" style=""></button>
+
+
+            <ul class="menu_ul">
+                <a class="border-animation" href="./index.html">
+                    <div class="border-animation__inner">Главная</div>
+
+                </a>
+                <a class="border-animation" href="./our_results.html">
+                    <div class="border-animation__inner">Наши результаты</div>
+
+                </a>
+                <a class="border-animation" href="./whe_we.html">
+                    <div class="border-animation__inner">Преимущества</div>
+
+                </a>
+
+                <a class="border-animation" href="./our_services.html">
+                    <div class="border-animation__inner">Наши Услуги</div>
+
+                </a>
+                <a class="border-animation" href="./how_we_works.html">
+                    <div class="border-animation__inner">Этапы ремонта</div>
+
+                </a>
+                <a class="border-animation" href="./faq.html">
+                    <div class="border-animation__inner">Вопросы/Ответы</div>
+
+                </a>
+                <a class="border-animation" href="./contacts.html">
+                    <div class="border-animation__inner">Контакты</div>
+
+                </a>
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--   Content   -->
+        </div>
+    </div>
+
+
+    <button id="show" class="burger_icon">
+      <img
+        class="burger_icon"
+        style="width: 50px;"
+        src="./menu-alt-512.png"
+        alt="Menu"
+      />
+    </button>
+    <div class="main_section">
+        <div class="max-width">
+            <div class="text_height">
+                <div id="typed-strings" class="typed_text_block">
+                    <p class="text">СДЕЛАЕМ РЕМОНТ «ПОД КЛЮЧ» ПО ФИКСИРОВАННОЙ ЦЕНЕ ЗА 49 ДНЕЙ БЕЗ АВАНСОВ И ПРЕДОПЛАТЫ </p>
+
+                </div>
+
+                <span id="typed"></span>
+            </div>
+
+
+            <div class="buttons">
+                <div class="btn_flex">
+                    <style>
+                        .border-animation .border-animation__inner.icon {
+                            background: url('./icons/download.png'), #333;
+                            background-size: 30px;
+                            background-repeat: no-repeat;
+                            background-position: 10% 50%;
+                        }
+                        
+                        .border-animation .border-animation__inner.opros {
+                            background: url('./icons/opros.png'), #333;
+                            background-size: 30px;
+                            background-repeat: no-repeat;
+                            background-position: 1% 50%;
+                        }
+                    </style>
+
+                    <a class="border-animation " data-toggle="modal" style="max-width: 350px;" data-target=".bd-example-modal-lg" href="#">
+                        <div class="border-animation__inner icon "> Скачать прайс-лист</div>
+                    </a>
+                    <p style="color: #d49520; font-size: 13px;" class="price">
+                        *"Прайс-лист" который сам, Вам просчитает стоимость ремонта, введите только объемы работ.
+                    </p>
+
+                    <a class="border-animation " data-toggle="modal" style="max-width: 350px;" data-target=".bd-example-modal-xl" href="#">
+                        <div class="border-animation__inner opros">Узнать стоимость ремонта</div>
+                    </a>
+                    <p style="color: #e5a934; font-size: 13px;" class="price">
+                        *Пройди тест из 7 вопросов за 1 минуту и получи <br /> скидку до 15% на материалы за ответы
+                    </p>
+
+
+                </div>
+                <style>
+                    .info_btn {
+                        display: flex;
+                        justify-content: space-around;
+                        width: 750px;
+                    }
+                    
+                    .f_btn {
+                        width: 44%;
+                        margin-left: 30px;
+                    }
+                    
+                    .s_btn {
+                        width: 40%;
+                    }
+                    
+                    @media(max-width: 762px) {
+                        .f_btn {
+                            display: none;
+                        }
+                        .s_btn {
+                            display: none;
+                        }
+                        .info_btn {
+                            flex-direction: column;
+                        }
+                        .price {
+                            display: block;
+                        }
+                    }
+                </style>
+                <div class="info_btn">
+                    <div class="f_btn">
+                        <p class="pc_price" style="color: #d49520; font-size: 13px; ">
+                            *"Прайс-лист" который сам, Вам просчитает стоимость ремонта, введите только объемы работ
+                        </p>
+                    </div>
+
+
+
+                    <div class="s_btn">
+                        <p class="pc_price" style="color: #d49520; font-size: 13px;">
+                            *Пройди тест из 7 вопросов за 1 минуту и получи скидку до 15% на материалы за ответы
+                        </p>
+                    </div>
+                </div>
+                <div class="container_one">
+
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content" style="max-width: 400px;">
+                    <button style="margin-top: -10px;" class="nav_close_btn" data-dismiss="modal">
+                
+                    </button>
+                    <span aria-hidden="true"></span>
+                    </button>
+
+                    <p style="font-size: 20px;">
+                        Оставьте контакты и скачайте "Прайс-лист"
+                    </p>
+                    <form action="./api.php" method="POST">
+                        <input type="text" name="name" placeholder="Ваше имя" required />
+                        <div class="main-input"><span class="icon-Phones"></span><input type="number" type="tel" id="tel" placeholder="+380 (**) *** ** **" name="yourPhone" required="">
+                        </div>
+                        <button type="submit" class="border-animation " style="max-width: 100%;" href="./index.html">
+                        <div class="border-animation__inner" style="width: 85%;">Скачать</div>
+                    </button>
+                        <div style="display: flex; margin-top: 10px;">
+                            <input checked style="width: 10%; margin-top: -1px;" type="checkbox">
+                            <p>Я согласен на передачу персональных данных в соответствии с <a href="https://docs.google.com/document/d/1M0xzJ7_H0CLVOGLDzeJbrUp-IkhaVKBu_gvVuphFxpU/edit?usp=sharing"> политикой конфиденциальности</a> и <a href="https://docs.google.com/document/d/1LrVsKGoVC5jC00zA3SpnV8qUT4J4huM_wswD3yf3WNg/edit?usp=sharing"> пользовательским соглашением</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content" style="padding: 5px; width: 100%; background: #fff; margin-top: 0px;">
+                    <div style="float:right">
+                        <button style="margin-top: -10px; z-index: 999;" class="nav_close_btn" data-dismiss="modal">
+                
+              </button>
+                        <div class="container">
+                            <div class="test-item__content form-before">
+                                <div class="test-item__header">
+                                    <h2 class="section-title section-title--black fade_in">Рассчитайте предварительную стоимость и сроки ремонта Вашего помещения</h2>
+                                    <!-- <p class="test-item__desc">Ответьте на 7 вопросов и получите гарантированный подарок на выбор.</p> -->
+
+                                    <div class="test-item__progress">
+                                        <div class="test-item__number">
+                                            <span class="test-item__number-furst">1</span>
+                                            <span class="test-item__number-all">/ 6</span>
+                                            <span class="test-item__number-text">Почти готово!</span>
+                                        </div>
+
+                                        <div class="test__visual">
+
+                                            <div class="test-circle test-circle-0 test-circle-active">
+                                            </div>
+
+                                            <div class="test-block test-block-0 test-block-active">
+                                            </div>
+
+                                            <div class="test-circle test-circle-1 test-circle-active">
+                                            </div>
+
+                                            <div class="test-block test-block-1">
+                                            </div>
+
+                                            <div class="test-circle test-circle-2">
+                                            </div>
+
+                                            <div class="test-block test-block-2">
+                                            </div>
+
+                                            <div class="test-circle test-circle-3">
+                                            </div>
+
+                                            <div class="test-block test-block-3">
+                                            </div>
+
+                                            <div class="test-circle test-circle-4">
+                                            </div>
+
+                                            <div class="test-block test-block-4">
+                                            </div>
+
+                                            <div class="test-circle test-circle-5">
+                                            </div>
+
+                                            <div class="test-block test-block-5">
+                                            </div>
+
+                                            <div class="test-circle test-circle-6">
+                                            </div>
+
+                                            <div class="test-block test-block-6">
+                                            </div>
+
+                                            <div class="test-circle test-circle-7">
+                                            </div>
+
+                                            <div class="test-block test-block-7">
+                                            </div>
+
+                                            <div class="test-circle test-circle-8">
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="test__content">
+
+                                    <div class="test-slider__wrap" style="margin-right: auto;margin-left: auto;">
+                                        <form action="./api.php" id="testForm" class="test-form" method="POST">
+                                            <input type="hidden" name="name" value="test">
+
+                                            <div class="test-slider">
+                                                <div class="test-slider__item first-test-item">
+                                                    <h3 class="test-slider-title" style="width: 100%;text-align: center;">
+                                                        Тип недвижимости</h3>
+                                                    <div class="test-slider__content" style="border: 0;justify-content: center;">
+
+                                                        <div class="test-slider__elem-min skipEl first-el" style="margin-left: 1.5%;margin-right: 1.5%;">
+                                                            <label for="nertype-1">
+                                                       <span class="customRadio__img ">
+                                                       </span>
+                                                </label>
+                                                            <style>
+                                                                .first-el {
+                                                                    background: url('./img/1.1.jpg') center;
+                                                                    background-size: cover;
+                                                                }
+                                                                
+                                                                .second_el {
+                                                                    background: url('./img/1.2.jpg') center;
+                                                                    background-size: cover;
+                                                                }
+                                                                
+                                                                .third_el {
+                                                                    background: url('./img/item4_2.jpg') center;
+                                                                    background-size: cover;
+                                                                }
+                                                                
+                                                                .fourth_el {
+                                                                    background: url('./img/item4_3.jpg') center;
+                                                                    background-size: cover;
+                                                                }
+                                                                
+                                                                @media(max-width:762px) {
+                                                                    .section-title {
+                                                                        margin-top: 36px;
+                                                                    }
+                                                                }
+                                                            </style>
+                                                            <input type="radio" name="nertype" class="customRadio_radio" id="nertype-1" value="Жилая недвижимость">
+
+                                                            <label style="background: #Fff; padding: 10px; " for="nertype-1" class="customRadio_label">
+                                                       <span class="customRadio_label-cirkle">
+                                                       </span>
+                                                    <span class="quest_text">Жилая недвижимость</span>
+                                                </label>
+                                                        </div>
+
+                                                        <div class="test-slider__elem-min skipEl second_el" data-id="1" style="margin-left: 1.5%;margin-right: 1.5%;">
+                                                            <label name='for_live' for="nertype-2">
+                                                       <span class="customRadio__img" style="background: url(img/ofis.jpg) no-repeat center; background-size: cover;">
+                                                       </span>
+                                                </label>
+
+                                                            <input type="radio" name="nertype" class="customRadio_radio" id="nertype-2" value="Коммерческая недвижимость">
+
+                                                            <label for="nertype-2" class="customRadio_label">
+                                                       <span class="customRadio_label-cirkle">
+                                                       </span>
+                                                    <span class="quest_text">Коммерческая недвижимость</span>
+                                                </label>
+                                                        </div>
+                                                    </div>
+                                                    <style>
+                                                        @media(max-width: 762px) {
+                                                            .quest_text {
+                                                                font-size: 9px;
+                                                            }
+                                                        }
+                                                    </style>
+
+
+
+                                                </div>
+
+                                                <div class="test-slider__item" style="display: none;">
+                                                    <h3 class="test-slider-title test-slider-title-m">
+                                                        Укажите ориентировочную площадь</h3>
+
+                                                    <div class="test-slider__content" style="border: 2px solid #ededed;">
+                                                        <div class="test-slider__img">
+                                                            <img src="./img/item2_1.png" alt="">
+                                                        </div>
+
+                                                        <div class="test-slider__data">
+                                                            <h4 class="test-slider__data-title">
+                                                                Площадь, м <sup>2</sup>
+                                                            </h4>
+                                                            <div class="send-result-polzunok_wrap">
+                                                                <label for="send-result-polzunok">м<sup>2</sup></label>
+                                                                <input type="text" name="send-result-polzunok" id="send-result-polzunok" class="input-test"></div>
+                                                            <div id="number-slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                                                <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style="width: 0%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;"></span></div>
+
+                                                            <div class="test-slider__input">
+                                                                <input type="checkbox" name="no" class="customRadio_radio" id="no">
+                                                                <label for="no" class="customRadio_label customRadio_label-check">
+                                                        <span class="checkbox-item"></span>
+                                                        <span>Не помню</span>
+                                                    </label>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="test-slider__item" style="display: none;">
+                                                    <span class="question question-test" style="display: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20"><defs><g id="questionSvg"><g transform="translate(-981 -631)">
+                                                    <path id="2twwa" d="M1005 641c0 5.523-4.991 10-11.149 10-2.263 0-4.368-.606-6.126-1.645l-5.773 1.541a.773.773 0 0 1-.79-.253.715.715 0 0 1-.068-.807l2.637-4.635a9.11 9.11 0 0 1-1.029-4.201c0-5.523 4.992-10 11.15-10 6.157 0 11.148 4.477 11.148 10zm-10.064 4.065c0-.592-.495-1.073-1.103-1.073-.609 0-1.104.481-1.104 1.073 0 .591.495 1.072 1.104 1.072.608 0 1.103-.48 1.103-1.072zm1.59-6.584c0-1.444-1.208-2.618-2.693-2.618-1.486 0-2.694 1.174-2.694 2.618 0 .46.384.833.857.833a.846.846 0 0 0 .856-.833c0-.525.44-.953.98-.953.541 0 .981.428.981.953 0 .653-.315.862-.791 1.179-.441.292-1.046.694-1.046 1.5v1.207c0 .46.384.833.857.833a.846.846 0 0 0 .856-.833v-1.12c.054-.045.155-.116.3-.213.575-.382 1.537-1.021 1.537-2.553z"></path></g></g></defs><use xlink:href="#questionSvg"></use></svg>
+                      </span>
+                                                    <h3 class="test-slider-title">
+                                                        Укажите количество комнат </h3>
+                                                    <div class="test-slider__content" style="border: 2px solid #ededed;">
+                                                        <div class="test-slider__data test-slider__data--row">
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof" class="customRadio_radio" id="orderRoof-3_1" value="1">
+
+                                                                <label for="orderRoof-3_1" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>1</span>
+    
+                                                    </label>
+                                                            </div>
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof" class="customRadio_radio" id="orderRoof-3_2" value="2">
+
+                                                                <label for="orderRoof-3_2" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>2</span>
+    
+                                                    </label>
+                                                            </div>
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof" class="customRadio_radio" id="orderRoof-3_3" value="3">
+
+                                                                <label for="orderRoof-3_3" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>3</span>
+    
+                                                    </label>
+                                                            </div>
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof" class="customRadio_radio" id="orderRoof-3_4" value="4 и больше">
+
+                                                                <label for="orderRoof-3_4" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>4 и больше</span>
+    
+                                                    </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="test-slider__img test-slider__img--2">
+                                                            <img src="./img/room3.png" alt="">
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="test-slider__item" style="display: none;">
+                                                    <h3 class="test-slider-title" style="width: 100%;text-align: center;">
+                                                        Тип ремонта</h3>
+                                                    <div class="test-slider__content" style="border: 0;padding: 0;justify-content: center;">
+
+
+
+
+                                                        <div class="test-slider__elem test-slider__elem-min skipEl third_el" style="margin-left: 1.5%;margin-right: 1.5%;">
+                                                            <label for="construction-2">
+                               <span class="customRadio__img" >
+                               </span>
+                                                </label>
+
+                                                            <input type="radio" name="construction" class="customRadio_radio" id="construction-2" value="Под ключ">
+
+                                                            <label for="construction-2" class="customRadio_label">
+                               <span class="customRadio_label-cirkle">
+                               </span>
+                                                    <span>Под ключ</span>
+    
+                                                </label>
+                                                        </div>
+                                                        <div class="test-slider__elem test-slider__elem-min skipEl fourth_el" style="margin-left: 1.5%;margin-right: 1.5%;">
+                                                            <label for="construction-3">
+                               <span class="customRadio__img" >
+                               </span>
+                                                </label>
+
+                                                            <input type="radio" name="construction" class="customRadio_radio" id="construction-3" value="Дизайнерский">
+
+                                                            <label for="construction-3" class="customRadio_label">
+                               <span class="customRadio_label-cirkle">
+                               </span>
+                                                    <span>Дизайнерский</span>
+    
+                                                </label>
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="test-slider__item" style="display: none;">
+                                                    <h3 class="test-slider-title">
+                                                        Ремонт будем делать по дизайн-проекту? </h3>
+                                                    <div class="test-slider__content" style="border: 2px solid #ededed;">
+                                                        <div class="test-slider__data">
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof22" class="customRadio_radio" id="orderRoof-5_1" value="Да, у меня есть дизайн-проект">
+
+                                                                <label for="orderRoof-5_1" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>Да, у меня есть дизайн-проект</span>
+    
+                                                    </label>
+                                                            </div>
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof22" class="customRadio_radio" id="orderRoof-5_2" value="Нет, без дизайн-проекта">
+
+                                                                <label for="orderRoof-5_2" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>Нет, без дизайн-проекта</span>
+    
+                                                    </label>
+                                                            </div>
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof22" class="customRadio_radio" id="orderRoof-5_3" value="Мне необходим дизайн-проект">
+
+                                                                <label for="orderRoof-5_3" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>Мне необходим дизайн-проект</span>
+    
+                                                    </label>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="test-slider__img test-slider__img--2">
+                                                            <img src="./img/img5.jpg" alt="">
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+
+                                                <div class="test-slider__item" style="display: none;">
+                                                    <h3 class="test-slider-title">
+                                                        Как скоро вам необходимо приступить к ремонту?</h3>
+                                                    <div class="test-slider__content" style="border: 2px solid #ededed;">
+                                                        <div class="test-slider__data">
+                                                            <div class="test-slider__elem test-slider__elem-radio  skipEl">
+                                                                <input type="radio" name="orderRoof33[]" class="customRadio_radio" id="orderRoof-6_1" value="В течение недели">
+
+                                                                <label for="orderRoof-6_1" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>В течение недели</span>
+    
+                                                    </label>
+                                                            </div>
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof33[]" class="customRadio_radio" id="orderRoof-6_2" value="В течение месяца">
+
+                                                                <label for="orderRoof-6_2" class="customRadio_label customRadio_label-fix">
+                             <span class="customRadio_label-cirkle">
+                             </span>
+                                                        <span>В течение месяца</span>
+    
+                                                    </label>
+                                                            </div>
+                                                            <div class="test-slider__elem test-slider__elem-radio skipEl">
+                                                                <input type="radio" name="orderRoof33[]" class="customRadio_radio" id="orderRoof-6_3" value="В течение полугода">
+
+                                                                <label for="orderRoof-6_3" class="customRadio_label customRadio_label-fix">
+                                                   <span class="customRadio_label-cirkle">
+                                                   </span>
+                                                        <span>В течение полугода</span>
+    
+                                                    </label>
+                                                            </div>
+
+
+                                                        </div>
+                                                        <div class="test-slider__img test-slider__img--2">
+                                                            <img src="./img/6_1.png" alt="">
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="test-slider__item" style="display: none;">
+                                                <div class="test-slider__item-end">
+                                                    <div class="test-slider__item-end_inner" style="width: 100%;">
+                                                        <p class="test-slider__item-end__complete">
+                                                            Готово!
+                                                        </p>
+                                                        <div class="test-slider__item-end__send">
+                                                            <p class="test-slider__item-end__title">
+                                                                Чтоб получить расчет, оставьте свои контактные данные
+                                                            </p>
+
+
+                                                        </div>
+                                                        <div class="inputs_form">
+                                                            <div class="main-input" style="margin-bottom: 15px;"><span class="icon-Woman"></span><input class="main-input__inner" type="text" placeholder="Ваше имя" name="name" required="">
+                                                            </div>
+                                                            <div class="main-input"><span class="icon-Phones"></span><input class="main-input__inner" type="tel" id="tel" placeholder="+380 (**) *** ** **" name="phone" required="">
+                                                            </div>
+                                                            <input type="hidden" name="result">
+                                                            <button type="submit" class="border-animation " style="max-width: 100%;" href="./index.html">
+                                                        <div class="border-animation__inner" style="width: 100%;">Отправить</div>
+                                                    </button>
+                                                            <div style="display: flex; margin-top: 10px;">
+                                                                <input checked style="width: 10%; margin-top: -1px;" type="checkbox">
+                                                                <p>Я согласен на передачу персональных данных в соответствии с <a href="https://docs.google.com/document/d/1M0xzJ7_H0CLVOGLDzeJbrUp-IkhaVKBu_gvVuphFxpU/edit?usp=sharing"> политикой конфиденциальности</a>                                                                    и <a href="https://docs.google.com/document/d/1LrVsKGoVC5jC00zA3SpnV8qUT4J4huM_wswD3yf3WNg/edit?usp=sharing"> пользовательским соглашением</a></p>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="btn--wrap test__btn-block">
+                                                <button class=" btn-test prev-test" disabled="true">
+                                        <span>Назад</span>
+                                    </button>
+                                                <button class="btn-test next-test" disabled="true">
+                                        <span>Далее</span>
+    
+                                    </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+        <script>
+            var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed: 90,
+                loop: false
+            });
+        </script>
+        <script src="./js/index.js"></script>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+        <script>
+            function calculPrice() {
+                var thisSize = $("#send-result-polzunok").val();
+
+                thisSize = parseInt(thisSize);
+
+                var result = thisSize * 170;
+
+                $('input[name=result]').val(result);
+
+                $(".result-message").text(result);
+
+                $('.result-message').each(function() {
+                    this.innerHTML = (parseInt(this.textContent))
+                        .toLocaleString('ru-RU')
+                });
+
+            }
+            $(".btn-test").click(function() {
+                calculPrice();
+            });
+            $(".gallery__more").click(function() {
+                $(".gallery__item").removeClass("hide");
+                $(this).hide();
+            });
+        </script>
+        <!-- <script src="./js/jquery-3.3.1.min.js"></script> -->
+        <!-- <script src="./js/jquery.maskedinput.min.js"></script> -->
+        <script src="./js/ui.js"></script>
+        <!-- <script src="./js/jquery.ui.touch-punch.min.js"></script>
+        <script src="./js/slick.min.js"></script>
+        <script src="./js/jquery.fancybox.min.js"></script>
+        <script src="./js/sly.js"></script>
+        <script src="./js/parallax.js"></script>
+        <script src="./js/spin.js"></script> -->
+        <script src="./js/test.js"></script>
+        <script src="./js/script.js"></script>
+
+</body>
+
+</html>

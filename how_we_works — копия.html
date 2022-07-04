@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/jquery"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <script src="https://surveyjs.azureedge.net/1.5.13/survey.jquery.js"></script>
+    <link rel="stylesheet" href="./css/btn.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://surveyjs.azureedge.net/1.5.13/modern.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Этапы работы</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <link rel="stylesheet" href="css/style_new.css" />
+</head>
+
+<body>
+    <div id="nav" class="navigation">
+        <div class="navigation__inner">
+            <button id="hide" class="nav_close_btn"></button>
+
+            <ul class="menu_ul">
+                <a class="border-animation" href="./index.html">
+                    <div class="border-animation__inner">Главная</div>
+                </a>
+                <a class="border-animation" href="./index.html">
+                    <div class="border-animation__inner">Наши результаты</div>
+                </a>
+                <a class="border-animation" href="./whe_we.html">
+                    <div class="border-animation__inner">Преимущества</div>
+                </a>
+
+                <a class="border-animation" href="./our_services.html">
+                    <div class="border-animation__inner">Наши Услуги</div>
+                </a>
+                <a class="border-animation" href="./how_we_works.html">
+                    <div class="border-animation__inner">Этапы ремонта</div>
+                </a>
+                <a class="border-animation" href="./faq.html">
+                    <div class="border-animation__inner">Вопросы/Ответы</div>
+                </a>
+                <a class="border-animation" href="./contacts.html">
+                    <div class="border-animation__inner">Контакты</div>
+                </a>
+            </ul>
+
+            <!--   Content   -->
+        </div>
+    </div>
+
+    <button id="show" class="burger_icon">
+      <img
+        class="burger_icon"
+        style="width: 50px;"
+        src="./menu-alt-512.png"
+        alt="Menu"
+      />
+    </button>
+    <div class="work_main">
+        <div class="max-width">
+            <div class="text_height" style="height: 80px;">
+                <div id="typed-strings" class="typed_text_block">
+                    <p class="text">Преимущества</p>
+                </div>
+
+                <span id="typed"></span>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                <img src="./img/1.png" style="width: 30px;" alt="" />
+                            </p>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Опытные рабочие
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Ремонт будут делать только квалифицированные рабочие с опытом работы от 5 лет.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .day_sec {
+                    height: 66px;
+                }
+            </style>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <img src="./img/garanty.png" style="width: 30px;" alt="" />
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Гарантии
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Юридически грамотный договор обеспечивает защиту интересов клиента.
+                            </p>
+                            <!-- <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        Через 15 мин.
+                                    </p>
+                                    <p>
+                                        Выезд замерщика
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img style="width: 50px;" src="./icons/master.png" alt="">
+                                    </p>
+                                    <p>
+                                        Мастер ответит на все вопросы
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        Не более 30 мин.
+                                    </p>
+                                    <p>
+                                        Работа замерщика
+                                    </p>
+
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                <img src="./img/money.png" style="width: 30px;" alt="" />
+                            </p>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Поэтапная оплата
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Никаких предоплат. Вы оплачиваете работу по мере выполнения.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                <img src="./img/2.png" style="width: 30px;" alt="" />
+                            </p>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Строгое соблюдение сроков
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Мы берем на себя обязательства и за просроченные дни выплачиваем пеню.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <img src="./img/Old-Camera-icon.png" style="width: 30px;" alt="" />
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Ежедневный фотоотчет
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                В конце каждого дня мы Вам предоставим фотоотчет в удобном виде.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <img src="./img/20002.png" style="width: 30px;" alt="" />
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Контроль качества
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Владелец фирмы лично контролирует каждый этап работы и отвечает перед Вами.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <img src="./img/50117.png" style="width: 30px;" alt="" />
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Без увеличения сметы
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                После начала работ смета ни при каких условиях расти не будет!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <img src="./img/cup.png" style="width: 30px;" alt="" />
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Экскурсия
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Предлагаем посетить готовые объекты чтобы пообщаться с заказчиком и увидеть сколько внимания мы уделяем мелким деталям.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <img src="./img/diploma-1.png" style="width: 30px;" alt="" />
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Все полностью "по-белому"
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Мы работаем только официально, поэтому вы можете быть на 100% уверены в чистоте сделки.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        img {
+            width: 50px;
+        }
+    </style>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script>
+        var typed = new Typed("#typed", {
+            stringsElement: "#typed-strings",
+            typeSpeed: 80,
+            loop: false
+        });
+    </script>
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/jquery"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <script src="https://surveyjs.azureedge.net/1.5.13/survey.jquery.js"></script>
+    <link rel="stylesheet" href="./css/btn.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://surveyjs.azureedge.net/1.5.13/modern.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Этапы работы</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <link rel="stylesheet" href="css/style_new.css" />
+</head>
+
+<body>
+    <div id="nav" class="navigation">
+
+        <div class="navigation__inner">
+            <button id="hide" class="nav_close_btn" style="width: 30px; height: 30px; background-size: 30px; background-position: center;"></button>
+
+
+            <ul class="menu_ul">
+                <a class="border-animation" href="./index.html">
+                    <div class="border-animation__inner">Главная</div>
+
+                </a>
+                <a class="border-animation" href="./our_results.html">
+                    <div class="border-animation__inner">Наши результаты</div>
+
+                </a>
+                <a class="border-animation" href="./whe_we.html">
+                    <div class="border-animation__inner">Преимущества</div>
+
+                </a>
+
+                <a class="border-animation" href="./our_services.html">
+                    <div class="border-animation__inner">Наши Услуги</div>
+
+                </a>
+                <a class="border-animation" href="./how_we_works.html">
+                    <div class="border-animation__inner">Этапы ремонта</div>
+
+                </a>
+                <a class="border-animation" href="./faq.html">
+                    <div class="border-animation__inner">Вопросы/Ответы</div>
+
+                </a>
+                <a class="border-animation" href="./contacts.html">
+                    <div class="border-animation__inner">Контакты</div>
+
+                </a>
+
+
+
+                <style>
+                    .works_h1 {
+                        display: none;
+                    }
+                    
+                    @media(max-width:762px) {
+                        .works_h1 {
+                            display: block;
+                        }
+                    }
+                </style>
+
+
+
+
+
+
+
+            </ul>
+
+            <!--   Content   -->
+        </div>
+    </div>
+
+    <button id="show" class="burger_icon">
+      <img
+        class="burger_icon"
+        style="width: 50px;"
+        src="./menu-alt-512.png"
+        alt="Menu"
+      />
+    </button>
+    <div class="work_main">
+        <div class="max-width">
+            <div class="text_height" style="height: 80px; margin-top: 90px;">
+                <div id="typed-strings" class="typed_text_block">
+                    <p class="text">Как мы работаем </p>
+
+                </div>
+
+                <span id="typed"></span>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                1 день
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Обсуждение
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Вместе с прорабом Вы разрабатываете проект ремонта: Вы рассказываете о своих пожеланиях, оговариваете сроки ремонта.
+                            </p>
+
+                            <a class="border-animation" data-toggle="modal" data-target=".bd-example-modal-lg" style="font-size: 14px; " href="#">
+                                <div class="border-animation__inner ">Оставить пожелания</div>
+                            </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                2 день
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Выезд замерщика
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Выезд замерщика осуществляется в течение следующего рабочего дня после поступления заявки. Для Вашего удобства , при встрече наш специалист проконсультирует по поводу возможных конструктивных решений.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        Через 15 мин.
+                                    </p>
+                                    <p>
+                                        Выезд замерщика
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img style="width: 50px;" src="./icons/master.png" alt="">
+                                    </p>
+                                    <p>
+                                        Мастер ответит на все вопросы
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        Не более 30 мин.
+                                    </p>
+                                    <p>
+                                        Работа замерщика
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                3 день
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Составление сметы и плана работ
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>Сметная документация позволяет не только определить конечную стоимость задуманного проекта, но и систематизировать проведение необходимых работ. На основании сметы Вы решите, подходят ли Вам предложены условия.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/calc.png" alt="">
+                                    </p>
+                                    <p>
+                                        Расчет стоимости ремонта
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/summa.png" alt="">
+                                    </p>
+                                    <p>
+                                        Сумма ремонта окончательная и зафиксирована в договоре
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        Без <br> дополнительных <br> расходов
+                                    </p>
+                                    <p>
+                                        Накладные расходы
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                4 день
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Заключение договора
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>После того, как Вы ознакомитесь со сметой, мы с Вами заключаем договор, в котором прописываем все условия и гарантии.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/hand.png" alt="">
+                                    </p>
+                                    <p>
+                                        Расчет стоимости ремонта
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p style="font-size: 30px; font-weight: bold;">
+                                        %
+                                    </p>
+                                    <p>
+                                        Сумма ремонта окончательная и зафиксирована в договоре
+                                    </p>
+
+                                </div>
+                                <div class="one">
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                5 день
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Подбор материалов со скидкой
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Подбор материалов для ремонта и строительства - один из самых сложных этапов, поскольку в магазинах представлен очень широкий ассортимент, различающийся как по дизайну, так и по цене и качеству.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/kist.png" alt="">
+                                    </p>
+                                    <p>
+                                        Расчет стоимости ремонта
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p style="font-size: 20px; font-weight: bold;">
+                                        скидка <br> <span> 10%</span> <br> доставка до объекта
+                                    </p>
+
+
+                                </div>
+                                <div class="one">
+                                    <p style="font-size: 20px; font-weight: bold;">
+                                        до <br> <span> 15%</span> <br> скидка на материалы
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                6-14 дней
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Демонтаж
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Демонтаж является одним из этапов благоустройства нового жилья или капитального ремонта.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/worker.png" alt="">
+                                    </p>
+                                    <p>
+                                        Квалифицированные рабочие
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/34845.png" alt="">
+                                    </p>
+                                    <p>
+                                        Фотоотчёт
+                                    </p>
+
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/trash.png" alt="">
+                                    </p>
+                                    <p>
+                                        Вывоз строительного мусора
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                14-24 дней
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Черновая отделка
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Главная цель такой отделки - устранение недостатков и неровностей несущих конструкций, поэтому стены и потолки должны быть обязательно оштукатурены.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/shpatel.png" alt="">
+                                    </p>
+                                    <p>
+                                        Штукатурка стен
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/floor.png" alt="">
+                                    </p>
+                                    <p>
+                                        Стяжка пола
+                                    </p>
+
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/electricity.png" alt="">
+                                    </p>
+                                    <p>
+                                        Электропроводка и водоснабжение
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                24-33 дней
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Чистовая отделка
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Чистовая отделка является последним этапом работ в доме или квартире, которому предшествует черновая отделка.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/33.1.png" alt="">
+                                    </p>
+                                    <p>
+                                        Укладка полов, оклейка стен
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/33.2.png" alt="">
+                                    </p>
+                                    <p>
+                                        Электрика
+                                    </p>
+
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/33.3.png" alt="">
+                                    </p>
+                                    <p>
+                                        Сантехника
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                34 день
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Уборка помещения
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Генеральная уборка квартиры подразумевает под собой полное наведение чистоты и порядка в обновлённой квартире.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/34.1.png" alt="">
+                                    </p>
+                                    <p>
+                                        Влажная уборка, сухая уборка
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/34.2.png" alt="">
+                                    </p>
+                                    <p>
+                                        Мойка окон, протирка пыли
+                                    </p>
+
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/trash.png" alt="">
+                                    </p>
+                                    <p>
+                                        Вывоз мусора
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="works_sec">
+                <div class="flex_works">
+                    <div class="first_flex">
+                        <div class="day_sec">
+                            <p>
+                                35 день
+                            </p>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="sec_flex">
+                        <div class="info_sec">
+                            <p style="font-size: 20px;">
+                                Приём работы
+                            </p>
+                        </div>
+                        <div style="padding: 15px;">
+                            <p>
+                                Наш менеджер расскажет о проделанной работе и ответит на Ваши вопросы.
+                            </p>
+                            <div class="flex_in">
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/35.1.png" alt="">
+                                    </p>
+                                    <p>
+                                        Сверяетесь со сметой
+                                    </p>
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/35.2.png" alt="">
+                                    </p>
+                                    <p>
+                                        Менеджер расскажет о проделанной работе
+                                    </p>
+
+
+                                </div>
+                                <div class="one">
+                                    <p>
+                                        <img src="./icons/hand.png" alt="">
+                                    </p>
+                                    <p>
+                                        Вы принимаете работу
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content modal_how_we" style="max-width: 350px; background-repeat: no-repeat;">
+                <button class="nav_close_btn" data-dismiss="modal" style="width: 30px; height: 30px; background-size: 30px; background-position: center;">
+                    
+                  </button>
+
+                <p style="font-size: 20px;">
+                    Оставить Пожелание
+                </p>
+                <form action="./api.php" method="POST">
+                    <input type="text" name="name" placeholder="Ваше имя" />
+                    <div class="main-input"><span class="icon-Phones"></span><input class="num_in" type="number" type="tel" id="tel" placeholder="+380 (**) *** ** **" name="yourPhone" required="">
+                    </div>
+                    <textarea style="max-width: 250px;" class="text_area" name="sms" id="" cols="25" rows="3" placeholder="Оставьте пожелание"></textarea>
+                    <button type="submit" class="border-animation " data-toggle="modal" style="max-width: 350px;" data-target=".bd-example-modal-xl" href="#">
+                        <div class="border-animation__inner opros">Отправить</div>
+                    </button>
+                    <div style="display: flex; margin-top: 10px;">
+                        <input checked style="width: 10%; margin-top: -1px;" type="checkbox">
+                        <p style="font-size: 13px;">Я согласен на передачу персональных данных в соответствии с <a href="https://docs.google.com/document/d/1M0xzJ7_H0CLVOGLDzeJbrUp-IkhaVKBu_gvVuphFxpU/edit?usp=sharing"> политикой конфиденциальности</a> и <a href="https://docs.google.com/document/d/1LrVsKGoVC5jC00zA3SpnV8qUT4J4huM_wswD3yf3WNg/edit?usp=sharing"> пользовательским соглашением</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <style>
+        img {
+            width: 50px;
+        }
+    </style>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 80,
+            loop: false
+        });
+    </script>
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</body>
+
+</html>

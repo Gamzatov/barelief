@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" /> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+    <meta charset="UTF-8" />
+    <!-- <script src="https://unpkg.com/jquery"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <script src="https://surveyjs.azureedge.net/1.5.13/survey.jquery.js"></script>
+    <link rel="stylesheet" href="./css/btn.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://surveyjs.azureedge.net/1.5.13/modern.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./css/let/.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <style type="text/css">
+        #panel,
+        #panel2,
+        #panel3,
+        #panel4,
+        #panel5,
+        #panel6,
+        #panel7,
+        #panel8,
+        #panel9,
+        #panel10,
+        #panel11,
+        #panel12,
+        #panel13,
+        #panel14,
+        #panel15 {
+            background: #fff;
+            color: #FFFFFF;
+            /* height: 200px; */
+            /* width: 400px; */
+            padding: 5px;
+            color: #000;
+            display: none;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .main {
+            margin-top: 7%;
+        }
+        
+        @media(max-width:762px) {}
+        
+        a {
+            display: block;
+            /* background: #FFFFFF; */
+            padding: 5px;
+            text-decoration: none;
+            text-align: left;
+        }
+        
+        .btn-slide,
+        .btn-slide-2,
+        .btn-slide-3,
+        .btn-slide-4,
+        .btn-slide-5,
+        .btn-slide-6,
+        .btn-slide-7,
+        .btn-slide-8,
+        .btn-slide-9,
+        .btn-slide-10,
+        .btn-slide-11,
+        .btn-slide-12,
+        .btn-slide-13,
+        .btn-slide-14,
+        .btn-slide-15 {
+            padding: 20px !important;
+            background: url('./img/arrow_down.png');
+            background-size: 30px;
+            background-position: 100% 67%;
+            background-repeat: no-repeat;
+        }
+        
+        .on {
+            background: url('./img/arrow_up.png'), #FFC200;
+            background-size: 30px;
+            background-repeat: no-repeat;
+            background-position: 97% 67%;
+            color: #000;
+            padding: 10px;
+            text-decoration: none;
+            /* display: block; */
+        }
+    </style>
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <link rel="stylesheet" href="css/style_new.css" />
+</head>
+
+<body>
+    <pre id="demo"></pre>
+    <div id="nav" class="navigation">
+
+        <div class="navigation__inner">
+            <button id="hide" class="nav_close_btn"></button>
+
+
+            <ul class="menu_ul">
+                <a class="border-animation" href="./index.html">
+                    <div class="border-animation__inner">Главная</div>
+
+                </a>
+                <a class="border-animation" href="./our_results.html">
+                    <div class="border-animation__inner">Наши результаты</div>
+
+                </a>
+                <a class="border-animation" href="./whe_we.html">
+                    <div class="border-animation__inner">Преимущества</div>
+
+                </a>
+
+                <a class="border-animation" href="./our_services.html">
+                    <div class="border-animation__inner">Наши Услуги</div>
+
+                </a>
+                <a class="border-animation" href="./how_we_works.html">
+                    <div class="border-animation__inner">Этапы ремонта</div>
+
+                </a>
+                <a class="border-animation" href="./faq.html">
+                    <div class="border-animation__inner">Вопросы/Ответы</div>
+
+                </a>
+                <a class="border-animation" href="./contacts.html">
+                    <div class="border-animation__inner">Контакты</div>
+
+                </a>
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+            <!--   Content   -->
+        </div>
+    </div>
+
+    <button id="show" class="burger_icon">
+      <img
+        class="burger_icon"
+        style="width: 50px;"
+        src="./menu-alt-512.png"
+        alt="Menu"
+      />
+    </button>
+    <style>
+        .main_h {
+            display: none;
+        }
+        
+        @media(max-width: 762px) {
+            .main_h {
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+    </style>
+    <div class="text_height" style="text-align: center; height: 90px; padding-top: 90px;">
+        <div id="typed-strings" class="typed_text_block">
+            <p class="text">Вопросы\Ответы</p>
+
+        </div>
+
+        <span id="typed"></span>
+    </div>
+    <div class="main">
+        <div class="max-width">
+
+            <a href="" class="btn-slide">1.  Заключается ли договор?
+            </a>
+            <div id="panel">
+                Да, мы заключаем с клиентами типовой договор в двух экземплярах с подробным описанием планируемых работ.
+            </div>
+            <a href="" class="btn-slide-2">2.Есть ли предоплата на работу и каков порядок оплаты?
+            </a>
+
+            <div id="panel2">
+
+                Мы работаем без предоплаты. Оплата работ выполняется поэтапно, по факту выполнения работ за определенный этап. Порядок выплат и этапы подробно оговариваются в договоре.
+
+            </div>
+            <a href="" class="btn-slide-3">3. Есть ли у вас рассрочка?</a>
+            <div id="panel3">
+
+                Да, мы предоставляем рассрочку, но распространяется она только на работу. Строительнй материал оплачивается по факту доставки на объект либо предоставляется клиентом.
+
+            </div>
+            <a href="" class="btn-slide-4">4. Выезд специалиста и составление сметы бесплатно?</a>
+            <div id="panel4">
+
+                Да, расходы на работу сметчика мы полностью берем на себя.
+
+            </div>
+            <a href="" class="btn-slide-5">5. Есть у вас свои стройматериалы?</a>
+
+            <div id="panel5">
+
+                Мы работаем без предоплаты. Оплата работ выполняется поэтапно, по факту выполнения работ за определенный этап. Порядок выплат и этапы подробно оговариваются в договоре.
+
+            </div>
+            <a href="" class="btn-slide-6">6. Какова цена за материалы?</a>
+
+            <div id="panel6">
+
+                Приблизительный порядок цен на материалы следующий: если вы делаете косметический ремонт, то материал обойдется вам от 400 гривен за квадратный метр, при капитальном ремонте стоимость материала будет начинаться от 800 гривен за метр. Стоимость материала
+                при евроремонте начинается от 1000 гривен за квадратный метр.
+            </div>
+            <a href="" class="btn-slide-7">7. Рабочие в штате или привлекаемые со стороны?</a>
+
+            <div id="panel7">
+                У нас сформирован свой штат специалистов, однако, при необходимости (большой объем, высокая загруженность и т.п.), мы оставляем за собой право привлечь субподрядчика. Привлечение исполнителей со стороны случается крайне редко, не накладывает на клиента
+                дополнительных финансовых обязательств и не снимает с нас гарантийных обязательств.
+
+            </div>
+            <a href="" class="btn-slide-8">8. Есть ли квалификация у рабочих?</a>
+            <div id="panel8">
+
+                Все рабочие имеют как минимум диплом о профильном среднем специальном образовании, бригадиры — высшее инженерное образование. Мы тщательно отбираем сотрудников и не привлекаем к ответственной работе неквалифицированную рабочую силу.
+            </div>
+            <a href="" class="btn-slide-9">9. Электрики с допусками?</a>
+            <div id="panel9">
+
+                Все наши электрики являются дипломированными специалистами с группой допуска до 1000 В.
+
+            </div>
+            <a href="" class="btn-slide-10">10. Каковы сроки выполнения ремонта?</a>
+            <div id="panel10">
+                Все зависит от поставленных задач и ваших нужд. Мы строго соблюдаем все технологические процессы и это накладывает необходимость выдерживать определенные временные рамки. Косметический ремонт 1 помещения ориентировочно занимает около 30 дней, капитальный
+                ремонт — 50-60 дней, евроремот может занять не менее 2,5-3 месяцев.
+
+            </div>
+            <a href="" class="btn-slide-11">11. Есть ли у вас СРО?</a>
+            <div id="panel11">
+
+                Да, у нас имеется допуск СРО.
+
+            </div>
+            <a href="" class="btn-slide-12">12. Есть ли гарантия?</a>
+            <div id="panel12">
+
+                Мы предоставляем гарантию на работы сроком на 3 года.
+
+            </div>
+            <a href="" class="btn-slide-13">13. Делаете ли вы частичный ремонт, поэтапный ремонт, отдельно комнату?</a>
+            <div id="panel13">
+
+                Мы готовы выполнить частичный ремонт при условии наличия свободных человеко-часов. Более подробно о такой возможности стоит уточнить по телефонуa <a style="color: #000;" href="tel:+38 (067) 249-15-72"> +38 (067) 249-15-72</a>.
+
+            </div>
+            <a href="" class="btn-slide-14">14. Как скоро мы сможем приступить к ремонту?</a>
+            <div id="panel14">
+
+                Через два дня после подписания договора наши рабочие готовы выйти на объект. В договоре указывается дата начала и дата окончания ремонта. Если мы не укладываемся в сроки, то выплачиваем Вам неустойку это тоже прописано в договоре.
+
+            </div>
+            <a href="" class="btn-slide-15">15. Есть ли у вас авторский надзор?</a>
+            <div id="panel15">
+
+                Да есть, за каждым объектом закреплен прораб который отвечает за работу на объекте и также закреплен за каждым объектом менеджер он отвечает за организационную часть на объекте.
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <style>
+        a {
+            color: #fff;
+        }
+    </style>
+    <script src="./faq.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script src="./js/text.js"></script>
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+</body>
+
+</html>
